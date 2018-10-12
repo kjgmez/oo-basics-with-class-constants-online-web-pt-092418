@@ -9,10 +9,6 @@ class Shoe
     BRANDS.push(brand)
   end
 
-  if brand == "Nike" || brand == "Uggs"
-    BRANDS.delete(brand)
-  end
-
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
