@@ -11,7 +11,7 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    if brand == "Nike" || "Uggs"
+    if brand == "Nike" || brand == "Uggs"
       BRANDS.push(brand)
     end
   end
