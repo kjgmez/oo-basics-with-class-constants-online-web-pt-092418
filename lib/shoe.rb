@@ -6,8 +6,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if brand == "Nike" || brand == "Uggs"
-      BRANDS.push(brand)
+    BRANDS.push(brand)
+    if brand != "Nike" || brand != "Uggs"
+      BRANDS.delete(brand)
     end
   end
 
