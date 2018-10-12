@@ -7,9 +7,6 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS.push(brand)
-    if brand != "Nike" || brand != "Uggs"
-      BRANDS.delete(brand)
-    end
   end
 
   def cobble
