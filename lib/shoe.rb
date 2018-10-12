@@ -6,11 +6,6 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.push(brand)
-  end
-
-  def brand=(brand)
-    @brand = brand
     if brand == "Nike" || brand == "Uggs"
       BRANDS.push(brand)
     end
